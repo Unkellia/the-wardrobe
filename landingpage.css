@@ -41,6 +41,8 @@
     margin-left: 30px;
     overflow: hidden;
     height: 80vh;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
 
 }
 .featureSection img{
@@ -62,16 +64,19 @@
     
 }
 .aboutSection{
-    width: 100%;
+    width: 90%;
     background-color: #e3e6f3;
     text-align: center;
     margin: 0 auto;
     text-align: center;
     height: 30vh;
+    border-radius: 10px;
 
+    
 }
 .aboutSection h1{
     padding-top: 1rem;
+   
 
 }
 .aboutSection p{
@@ -85,18 +90,33 @@
 }
 .content img{
     height: 400px;
+    padding-left: 300px;
+    width: 50%
 }
 .content p {
     width: 80%;
 }
-.socials{
-    margin-top: 18rem;
-    text-align: center;
+.socials a{
+    
+    color: #e3e6f3;
     
 }
-.bothlastSection{
-    background-color: #e3e6f3;
+.socials{
+    margin-top: 2rem;
+}
+.meetateamsection{
+    background-color: black;
+    border-radius: 100px;
+    height: 97vh;
+    
+
 }
 .meetateamsection h1{
     text-align: center;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+.content p{
+    margin-top: 20%;
+    color: whitesmoke;
 }
