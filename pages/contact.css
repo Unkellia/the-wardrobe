@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3e6f3;
+    padding: 15rem;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 2rem;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  .contact-info {
+    margin-bottom: 20px;
+  }
+
+  .contact-info h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .contact-info p {
+    margin-bottom: 5px;
+    color: #666;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .contact-form textarea {
+    height: 100px;
+  }
+
+  .contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-form input[type="submit"]:hover {
+    background-color: #555;
+  }
+
+  .social-media {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .social-media h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .social-media ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .social-media ul li:last-child {
+    margin-right: 0;
+  }
+
+  .social-media a {
+    color: #333;
+    font-size: 20px;
+  }
+
+  .response-time {
+    text-align: center;
+  }
+
+  .response-time h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .response-time p {
+    color: #666;
+  }
+  
+#footer{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 75px;
+    background-color: #ececec;
+
+  }

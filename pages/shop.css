@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3e6f3;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Sumer-Dresses-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .Sumer-Dresses-orange {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Sumer-Dresses-orange img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .Sumer-Dresses-orange h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .Sumer-Dresses-orange p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .buy-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .buy-button:hover {
+    background-color: #555;
+  }

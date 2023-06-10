@@ -433,6 +433,7 @@ span {
   justify-content: space-between;
   padding: 75px;
   background-color: #ececec;
+  padding-left: 1rem;
 }
 #footer div{
 }
